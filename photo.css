@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url(img12.jpg);
+    
+    background-size: cover;
+    font-size: 14px;
+    font-weight: normal;
+    background-attachment: fixed;
+     background-position: fixed;
+}
+.header{
+    padding: 15px 35px;
+    display: inline-block;
+    width: 100%;
+    background-position: fixed;
+    
+}
+.logo{
+    float: left;
+/* position: sticky; */
+}
+img{
+    max-width: 100%;
+}
+.menu{
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 28px;
+    margin-top: 10px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(97, 91, 91);
+     padding: 5px 10px;
+}
+.menu ul li a:hover{
+    color: rgb(1, 15, 43);
+}
+.name{
+    width: 350px;
+    margin-top: 200px;
+    margin-left:800px ;
+}
+.name h4{
+    color: rgb(28, 58, 70);
+    font-size:25px ;
+    letter-spacing: 3px;
+}
+.name h1{
+    color: rgb(30, 38, 48);
+    font-size: 90px;
+    text-transform: uppercase;
+line-height: 70px;
+}
+    
+    
